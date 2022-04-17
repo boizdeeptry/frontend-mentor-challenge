@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="challenge">
+      <div class="challenge-container">
+        <div class="challenge-images">
+          <span class="hover-image">
+            <ion-icon
+              name="eye"
+              style="height: 32px; width: 32px; color: #ffffff"
+            ></ion-icon>
+          </span>
+          <img src="./images/image-equilibrium.jpg" alt="This is image !" />
+        </div>
+        <h3 class="challenge-content__heading">Equilibrium #3429</h3>
+        <p class="challenge-content__desc">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="challenge-content__eths">
+          <span class="challenge-content__eth" style="color: hsl(178, 100%, 50%);"><img src="./images/icon-ethereum.svg" alt="eth"> 0.041 ETH</span>
+          <span class="challenge-content__timeleft"
+            ><ion-icon name="time"></ion-icon>3 days left</span
+          >
+        </div>
+        <hr />
+        <div class="challenge-footer">
+          <div class="challenge-footer__avt">
+            <img
+              src="./images//image-avatar.png"
+              style="
+                width: 30;
+                height: 30px;
+                border: 1px solid #ffffff;
+                border-radius: 100%;
+              "
+              alt=""
+            />
+          </div>
+          <div class="challenge-footer__text">
+            Creation of
+            <a href="#" class="challenge-footer__link">Jules Wyvern</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
